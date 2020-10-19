@@ -1,4 +1,4 @@
-const snakeSpeed = 10; // Here you can adjust the speed of the snake
+const snakeSpeed = 6; // Here you can adjust the speed of the snake
 const snakeBody = [{ x: 11, y: 11}] // This is the default size of the snake
 let newSegments = 0 
 
