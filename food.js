@@ -1,5 +1,5 @@
 let food = getRandomFoodPosition() // veriable that shows up randomly on the screen
-const expansionRate = 1 // This veriable controls how much the snake grows once he gets food
+const expansionRate = 3 // This veriable controls how much the snake grows once he gets food
 
 function updateFood() { // Function that generates new food once the snake eats the old one
     if (onSnake(food)) { // If the snake is on the foods current position the next lines run
